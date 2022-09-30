@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T02:59:03.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="ogSp3i_xddbFA_7ciE8F" version="20.3.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-30T03:53:57.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="TYFBAImueRRs9co-0AUp" version="20.3.7" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="REFramework">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -373,8 +373,32 @@
         <mxCell id="684NpIDUQSkcVhp0ba55-59" value="Max &lt;b&gt;30 characters&lt;/b&gt;&lt;br&gt;If longer, use substring of &lt;br&gt;first &lt;b&gt;30&lt;/b&gt; &lt;b&gt;characters&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="10520" y="130" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="684NpIDUQSkcVhp0ba55-63" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="684NpIDUQSkcVhp0ba55-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="684NpIDUQSkcVhp0ba55-63" target="684NpIDUQSkcVhp0ba55-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-63" value="Click &lt;b&gt;Policy&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="10920" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-65" value="Click &lt;b&gt;New&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="11120" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="684NpIDUQSkcVhp0ba55-69" target="684NpIDUQSkcVhp0ba55-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-69" value="Click &lt;b&gt;Default Guest Policy&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="11550" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-71" value="Select &lt;b&gt;DomShortMasterPolicy&lt;/b&gt;&amp;nbsp;in &lt;i&gt;Domestic Master Policy&lt;/i&gt;&amp;nbsp;field" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="11750" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-74" value="&lt;i&gt;Config Item&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="11795" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-73" value="&lt;i&gt;Config Item&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="11350" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-77" value="&lt;i&gt;Config Item&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="12090" y="130" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Microsoft Excel" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="900" width="19600" height="300" as="geometry" />
@@ -725,6 +749,21 @@
         </mxCell>
         <mxCell id="684NpIDUQSkcVhp0ba55-60" value="Click &lt;b&gt;Save&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="10780" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="684NpIDUQSkcVhp0ba55-67" target="684NpIDUQSkcVhp0ba55-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-67" value="Select &lt;b&gt;PolicyEmployeeType&lt;/b&gt;&amp;nbsp;in &lt;i&gt;Employee Type &lt;/i&gt;field" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="11380" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="684NpIDUQSkcVhp0ba55-65" target="684NpIDUQSkcVhp0ba55-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-75" value="Select &lt;b&gt;TransTasmanShortMasterPolicy&lt;/b&gt;&amp;nbsp;in &lt;i&gt;TT Maser Policy&lt;/i&gt;&amp;nbsp;field" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="12085" y="690" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="684NpIDUQSkcVhp0ba55-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="684NpIDUQSkcVhp0ba55-71" target="684NpIDUQSkcVhp0ba55-75">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
