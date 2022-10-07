@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T06:23:02.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.34" etag="3d86F-bBpZcYgmDze5oy" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T06:30:19.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.34" etag="okfco7liLkt0fnpr1ObA" version="20.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1673" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         <mxCell id="2dX01dUIb2N1G-1F3EJ_-10" value="Robot" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="300" width="6190" height="300" as="geometry" />
         </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-31" value="GETTRANSACTIONDATA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;spacingLeft=5;" vertex="1" parent="2dX01dUIb2N1G-1F3EJ_-10">
+          <mxGeometry x="2300" y="20" width="1260" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="2dX01dUIb2N1G-1F3EJ_-6" value="INIT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;spacingLeft=5;" parent="2dX01dUIb2N1G-1F3EJ_-10" vertex="1">
           <mxGeometry x="50" y="20" width="410" height="260" as="geometry" />
         </mxCell>
@@ -39,6 +42,28 @@
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-13" value="&lt;b&gt;io_TransactionData &lt;/b&gt;isNot&amp;nbsp;&lt;i&gt;nothing&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2dX01dUIb2N1G-1F3EJ_-10">
           <mxGeometry x="735" y="80" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-32" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2dX01dUIb2N1G-1F3EJ_-10">
+          <mxGeometry x="2341" y="96" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-34" value="in_TransactionNumber &lt;br&gt;&amp;lt;= &lt;br&gt;io_TransactionData.Count" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2dX01dUIb2N1G-1F3EJ_-10">
+          <mxGeometry x="2301" y="36" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2dX01dUIb2N1G-1F3EJ_-10" source="NUYfNiR5YCy2ghnN-LS9-32" target="NUYfNiR5YCy2ghnN-LS9-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2380" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-35" value="&lt;b&gt;out_TransactionItem&lt;/b&gt;&lt;br&gt;=&lt;br&gt;&lt;i&gt;io_TransactionData(in_TransactionNumber-1)&lt;/i&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2dX01dUIb2N1G-1F3EJ_-10">
+          <mxGeometry x="2571" y="106" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2dX01dUIb2N1G-1F3EJ_-10" source="NUYfNiR5YCy2ghnN-LS9-32" target="NUYfNiR5YCy2ghnN-LS9-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-37" value="&lt;b&gt;out_TransactionItem&lt;/b&gt;&lt;br&gt;=&lt;br&gt;&lt;i&gt;Nothing&lt;/i&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2dX01dUIb2N1G-1F3EJ_-10">
+          <mxGeometry x="2570" y="200.5" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Google Chrome" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="600" width="6190" height="300" as="geometry">
             <mxRectangle x="20" y="300" width="1430" height="30" as="alternateBounds" />
@@ -48,19 +73,22 @@
           <mxGeometry x="20" y="900" width="6190" height="300" as="geometry" />
         </mxCell>
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-10" value="INIT&lt;br&gt;PROJECT&lt;br&gt;SETTINGS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;spacingLeft=5;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="960" y="20" width="640" height="260" as="geometry" />
+          <mxGeometry x="960" y="20" width="1260" height="260" as="geometry" />
         </mxCell>
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-8" value="Locate &lt;b&gt;TransactionData&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="1000" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;SiteURL&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;in_Config(&quot;SharePoint&quot;).ToString&lt;/i&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Query Subfolder&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;background-color: initial; font-weight: normal;&quot;&gt;in_Config(&quot;InputPathProd&quot;).ToString.Replace(&quot;NameOfBot&quot;, in_Config(&quot;BotName&quot;).ToString)&lt;/i&gt;&lt;/div&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Output/Results&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;background-color: initial; font-weight: normal;&quot;&gt;io_TransactionData[]&lt;/i&gt;&lt;/div&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="975" y="180" width="610" height="70" as="geometry" />
+          <mxGeometry x="990" y="180" width="610" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NUYfNiR5YCy2ghnN-LS9-25" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-25" value="Find &lt;b&gt;Output Folder&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="1620" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NUYfNiR5YCy2ghnN-LS9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="NUYfNiR5YCy2ghnN-LS9-8" target="NUYfNiR5YCy2ghnN-LS9-25">
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="NUYfNiR5YCy2ghnN-LS9-8" target="NUYfNiR5YCy2ghnN-LS9-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-28" value="&lt;b&gt;SiteURL&lt;/b&gt;:&amp;nbsp;&lt;i&gt;in_Config(&quot;SharePoint&quot;).ToString&lt;/i&gt;&lt;br&gt;&lt;b&gt;Query&lt;/b&gt;:&amp;nbsp;&lt;i&gt;Path.GetFileName(OutputPath)&lt;/i&gt;&lt;br&gt;&lt;b&gt;Query Subfolder&lt;/b&gt;:&amp;nbsp;&lt;i&gt;Path.GetDirectoryName(OutputPath)&lt;/i&gt;&lt;br&gt;&lt;b&gt;OutputPath&lt;/b&gt;:&amp;nbsp;&lt;i&gt;in_Config(&quot;OutputPathProd&quot;).ToString.Replace(&quot;NameOfBot&quot;, in_Config(&quot;BotName&quot;).ToString)&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Output/First&lt;/b&gt;:&amp;nbsp;&lt;i&gt;out_OutputFolder&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="1620" y="180" width="590" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2dX01dUIb2N1G-1F3EJ_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="2dX01dUIb2N1G-1F3EJ_-1" target="2dX01dUIb2N1G-1F3EJ_-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -71,8 +99,14 @@
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="NUYfNiR5YCy2ghnN-LS9-5" target="NUYfNiR5YCy2ghnN-LS9-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NUYfNiR5YCy2ghnN-LS9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="NUYfNiR5YCy2ghnN-LS9-20" target="NUYfNiR5YCy2ghnN-LS9-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="NUYfNiR5YCy2ghnN-LS9-25" target="NUYfNiR5YCy2ghnN-LS9-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2360" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2280" y="1050" />
+              <mxPoint x="2280" y="436" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NUYfNiR5YCy2ghnN-LS9-3" target="NUYfNiR5YCy2ghnN-LS9-6">
           <mxGeometry relative="1" as="geometry" />
@@ -93,9 +127,6 @@
         </mxCell>
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NUYfNiR5YCy2ghnN-LS9-6" target="NUYfNiR5YCy2ghnN-LS9-11">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NUYfNiR5YCy2ghnN-LS9-28" value="&lt;b&gt;SiteURL&lt;/b&gt;:&amp;nbsp;&lt;i&gt;in_Config(&quot;SharePoint&quot;).ToString&lt;/i&gt;&lt;br&gt;&lt;b&gt;Query&lt;/b&gt;:&amp;nbsp;&lt;i&gt;Path.GetFileName(OutputPath)&lt;/i&gt;&lt;br&gt;&lt;b&gt;Query Subfolder&lt;/b&gt;:&amp;nbsp;&lt;i&gt;Path.GetDirectoryName(OutputPath)&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Output/First&lt;/b&gt;:&amp;nbsp;&lt;i&gt;out_OutputFolder&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1335" width="320" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
