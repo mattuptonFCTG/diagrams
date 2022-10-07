@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T06:34:07.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.34" etag="Ya4fnncOqHbfMkxizGuN" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T06:38:31.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.34" etag="zIccW1hZ9ALKJGTe1_9V" version="20.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1673" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,10 +95,13 @@
             <mxRectangle x="20" y="300" width="1430" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-48" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 16px;&quot;&gt;START OF PROCESS LOOP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="3100" y="240" width="230" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Microsoft Office 365" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="900" width="6190" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="NUYfNiR5YCy2ghnN-LS9-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;spacingLeft=5;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="NUYfNiR5YCy2ghnN-LS9-47" value="Download Transaction File?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;spacingLeft=5;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="3100" y="20" width="720" height="260" as="geometry" />
         </mxCell>
         <mxCell id="NUYfNiR5YCy2ghnN-LS9-10" value="INIT&lt;br&gt;PROJECT&lt;br&gt;SETTINGS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;spacingLeft=5;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
